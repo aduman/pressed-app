@@ -1,0 +1,39 @@
+{
+  "bleed" : 0.06,
+  "contrast" : 1.19,
+  "dotShape" : "square",
+  "dotWidth" : 12.4,
+  "dust" : 0,
+  "edgeRough" : 0,
+  "engine" : 2,
+  "frameMargin" : 0,
+  "inkLevel" : 0.42,
+  "inks" : [
+    {
+      "angle" : 15,
+      "hex" : 7756711,
+      "name" : "Violet",
+      "tonalCenter" : -1,
+      "tonalWidth" : 0.3
+    },
+    {
+      "angle" : 0,
+      "hex" : 16771072,
+      "name" : "Yellow",
+      "tonalCenter" : -1,
+      "tonalWidth" : 0.3
+    }
+  ],
+  "name" : "Acid Cut",
+  "paper" : {
+    "hex" : 14477032,
+    "name" : "Pale Blue"
+  },
+  "paperTexture" : 0.04,
+  "recipeAppVersion" : "1.0",
+  "recipeSchema" : 1,
+  "registration" : 0.58,
+  "separation" : "color",
+  "sticker" : false,
+  "tier" : "plus"
+}

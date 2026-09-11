@@ -1,0 +1,32 @@
+{
+  "bleed" : 0.28,
+  "contrast" : 1.16,
+  "dotShape" : "grain",
+  "dotWidth" : 4.6,
+  "dust" : 0,
+  "edgeRough" : 0,
+  "engine" : 3,
+  "frameMargin" : 0,
+  "inkLevel" : 0.54,
+  "inks" : [
+    {
+      "angle" : 45,
+      "hex" : 9522802,
+      "name" : "Burgundy",
+      "tonalCenter" : -1,
+      "tonalWidth" : 0.3
+    }
+  ],
+  "name" : "Botanical No. 2",
+  "paper" : {
+    "hex" : 15722190,
+    "name" : "Cream"
+  },
+  "paperTexture" : 0.35,
+  "recipeAppVersion" : "1.0",
+  "recipeSchema" : 1,
+  "registration" : 0,
+  "separation" : "tonal",
+  "sticker" : false,
+  "tier" : "plus"
+}

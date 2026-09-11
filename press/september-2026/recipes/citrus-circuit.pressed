@@ -1,0 +1,46 @@
+{
+  "bleed" : 0.08,
+  "contrast" : 1.08,
+  "dotShape" : "round",
+  "dotWidth" : 5.8,
+  "dust" : 0,
+  "edgeRough" : 0,
+  "engine" : 3,
+  "frameMargin" : 0,
+  "inkLevel" : 0.46,
+  "inks" : [
+    {
+      "angle" : 30,
+      "hex" : 16739375,
+      "name" : "Orange",
+      "tonalCenter" : -1,
+      "tonalWidth" : 0.3
+    },
+    {
+      "angle" : 75,
+      "hex" : 43356,
+      "name" : "Green",
+      "tonalCenter" : -1,
+      "tonalWidth" : 0.3
+    },
+    {
+      "angle" : 75,
+      "hex" : 30911,
+      "name" : "Blue",
+      "tonalCenter" : -1,
+      "tonalWidth" : 0.3
+    }
+  ],
+  "name" : "Citrus Circuit",
+  "paper" : {
+    "hex" : 16250092,
+    "name" : "White"
+  },
+  "paperTexture" : 0.08,
+  "recipeAppVersion" : "1.0",
+  "recipeSchema" : 1,
+  "registration" : 0.16,
+  "separation" : "color",
+  "sticker" : false,
+  "tier" : "plus"
+}

@@ -1,0 +1,39 @@
+{
+  "bleed" : 0.16,
+  "contrast" : 1.09,
+  "dotShape" : "elliptical",
+  "dotWidth" : 7.6,
+  "dust" : 0,
+  "edgeRough" : 0,
+  "engine" : 3,
+  "frameMargin" : 0,
+  "inkLevel" : 0.4,
+  "inks" : [
+    {
+      "angle" : 15,
+      "hex" : 15814752,
+      "name" : "Bright Red",
+      "tonalCenter" : -1,
+      "tonalWidth" : 0.3
+    },
+    {
+      "angle" : 75,
+      "hex" : 4418371,
+      "name" : "Forest",
+      "tonalCenter" : -1,
+      "tonalWidth" : 0.3
+    }
+  ],
+  "name" : "Rose and Leaf",
+  "paper" : {
+    "hex" : 15852252,
+    "name" : "Blush"
+  },
+  "paperTexture" : 0.18,
+  "recipeAppVersion" : "1.0",
+  "recipeSchema" : 1,
+  "registration" : 0.24,
+  "separation" : "color",
+  "sticker" : false,
+  "tier" : "plus"
+}
