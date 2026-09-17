@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pressed - Privacy Policy</title>
-<meta name="description" content="Pressed collects no data. Everything runs on your device.">
+<meta name="description" content="How Pressed protects local photos and handles optional notifications, consent and announcement records.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,33 +14,32 @@
     <div><h1>Privacy Policy</h1><p class="tag">Pressed</p></div>
   </header>
 
-  <p class="muted">Last updated 21 June 2026</p>
+  <p class="muted">Last updated 18 September 2026</p>
+  <p class="lede">Pressed edits photos on your device without an account. Optional announcements use a notification service. This policy explains both, including the notification features introduced in version 2.1.0.</p>
 
-  <p class="lede">Pressed does not collect, store, or share any personal data. There is no account, no
-  cloud, no analytics, and no tracking.</p>
+  <h2>Photos, editing and local storage</h2>
+  <p>Photo processing happens on your iPhone or iPad. We do not upload your photos, videos or prints to our servers. Exports leave the app only when you choose to save or share them; the destination you choose may have its own privacy practices.</p>
+  <p>Your working photo and editing state are stored locally so you can resume an edit after reopening the app. Close Photo clears the working photo. Saved recipes, settings and any separately retained recovery copies remain on your device until removed through the app or by deleting its data.</p>
+  <p>You choose photos through Apple's system photo picker. Pressed can request permission to add an exported print to your photo library.</p>
 
-  <h2>What stays on your device</h2>
-  <p>All editing happens locally on your iPhone or iPad. The photos you open and the prints you create
-  never leave your device. Your saved presses and settings are stored only on your device.</p>
+  <h2>Optional news and offers</h2>
+  <p>You can choose whether to receive news or offers. When you enable announcements, Pressed registers with Apple's Push Notification service (APNs) and our hosted notification service. Editing and exporting do not require notification permission.</p>
+  <p>Registration sends the app identifier, notification environment, a random installation identifier and credential, APNs device token, language, category choices, consent version and preference revision. Our service stores a hash of the credential, rather than the original credential. Previously registered installations can also send updated preferences when notifications are turned off.</p>
+  <p>We use these records to deliver the categories you selected, protect registration ownership, enforce frequency limits and avoid sending the same campaign repeatedly. We retain delivery attempts, delivery status and the time an announcement is opened, linked to the installation identifier. These are used to operate and assess our announcements, including our own product news and offers.</p>
 
-  <h2>Photo library</h2>
-  <p>Pressed asks for permission to add photos to your library only so it can save a print you export.
-  It does not read or upload your photo library. You choose each photo to open through the system
-  photo picker.</p>
+  <h2>Service providers and tracking</h2>
+  <p>Apple delivers push notifications. Cloudflare Workers and D1 host our notification service and its records. Network requests expose an IP address to the hosting provider for processing and rate limiting; our application does not store IP addresses in the notification database. Application request-body logging is disabled.</p>
+  <p>We do not send photos, videos, prints, payment details or your contact list to this service. We do not sell notification records, share them with data brokers, or combine them with other companies' data for targeted advertising. Pressed does not use the advertising identifier or cross-app advertising tracking.</p>
 
-  <h2>Purchases</h2>
-  <p>The optional one-time "Pressed Plus" unlock is handled entirely by Apple through the App Store.
-  Pressed never sees your payment information. Purchases are tied to your Apple ID.</p>
+  <h2 id="choices">Your choices and retention</h2>
+  <p>Change news and offers in Pressed Settings, or disable notifications in iOS Settings. Once the app synchronizes an opt-out, its stored notification token is cleared and the installation is ineligible for future sends. An offline preference change may remain pending until the app can contact the service.</p>
+  <p>Turning notifications off does not automatically delete historical consent or campaign records. These are retained to honor preferences and prevent repeated delivery; the current service has no automatic deletion schedule. Contact us below to request access to or deletion of notification records. Because we do not have user accounts, we may need to help you identify the relevant installation. Do not email device tokens or installation credentials.</p>
 
-  <h2>Data collection</h2>
-  <p>None. Pressed collects no usage data and contains no third-party SDKs, advertising, or trackers.
-  This matches the "Data Not Collected" label on the App Store.</p>
-
-  <h2>Children</h2>
-  <p>Pressed is suitable for all ages and collects no data from anyone.</p>
+  <h2>Purchases and external links</h2>
+  <p>Apple handles the optional one-time Pressed Plus purchase and payment information. Pressed reads purchase entitlements to enable purchased features but does not receive your payment details. Links to InkWaltz, the App Store, support or other destinations open only when you choose them and are subject to the destination's privacy practices.</p>
 
   <h2>Contact</h2>
-  <p>Questions about privacy: <a href="mailto:membrain.app@gmail.com">membrain.app@gmail.com</a></p>
+  <p>For privacy questions or data requests, email <a href="mailto:membrain.app@gmail.com">membrain.app@gmail.com</a>. If you email support, we receive the message and any contact details or attachments you choose to send; they are used to respond to your request.</p>
 
   <nav>
     <a href="index.html">Home</a>
