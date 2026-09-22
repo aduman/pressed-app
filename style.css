@@ -36,3 +36,27 @@ small,.muted{color:var(--soft);font-size:14px}
 nav{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font-size:15px}
 nav a{margin-right:18px}
 hr{border:none;border-top:1px solid var(--line);margin:28px 0}
+.promo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;
+  align-items:center;margin:28px 0 32px;padding:26px;background:#ddf54a;
+  border-radius:24px;color:#202b31}
+.promo-kicker{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.promo h2{font-size:clamp(30px,4.5vw,44px);line-height:1.04;letter-spacing:-.045em;
+  margin:16px 0 20px}
+.promo-copy>p:not(.promo-kicker){font-size:16px;line-height:1.5}
+.promo-download{display:inline-block;background:#2354eb;color:#f5eedb;
+  border-radius:12px;padding:12px 16px;margin-top:12px;font-size:15px;
+  font-weight:700;line-height:1.35;text-decoration:none}
+.promo-download:hover{background:#193fc1;text-decoration:none}
+.promo a:focus-visible,.promo summary:focus-visible,.promo video:focus-visible{
+  outline:3px solid #202b31;outline-offset:4px}
+.promo-copy .promo-caption{font-size:13px;margin-top:16px}
+.promo-film{margin:0;min-width:0}
+.promo video{display:block;width:100%;height:auto;aspect-ratio:9/16;
+  border-radius:14px;background:#ff9bd2}
+.promo details{font-size:12px;line-height:1.5;margin-top:10px}
+.promo summary{cursor:pointer}
+@media(max-width:560px){
+  .promo{grid-template-columns:1fr;padding:24px;gap:24px}
+  .promo h2{font-size:42px}
+  .promo-film{width:min(100%,320px);justify-self:center}
+}
